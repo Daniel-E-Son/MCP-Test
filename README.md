@@ -1,6 +1,6 @@
 # MCP Test
 
-이 저장소는 MCP(Multi-Cloud Platform) 테스트를 위한 프로젝트입니다.
+이 저장소는 MCP(Model Context Protocol) 테스트를 위한 프로젝트입니다.
 
 ## 소개
 이 프로젝트는 GitHub API를 활용한 테스트 저장소입니다.
