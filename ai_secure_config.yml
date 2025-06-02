@@ -1,0 +1,17 @@
+agent:
+  name: sample-custom-agent
+  model_type: gpt-4
+  tools:
+    - internal_db
+    - masking_api
+  allowed_endpoints:
+    - "*.internal.company.com"
+  output_filter: false
+  mode: production
+  data_sensitivity: high
+  auth_method: oauth2
+
+mcp:
+  proxy_auth: true
+  public_endpoint: false
+  tags: []
